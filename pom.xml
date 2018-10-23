@@ -1,0 +1,43 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.gamutgurus</groupId>
+	<artifactId>gamutkart</artifactId>
+	<packaging>war</packaging>
+	<version>1.1-SNAPSHOT</version>
+	
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+			
+	</dependencies>
+
+<reporting>
+
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>2.6</version>
+      </plugin>
+    </plugins>
+  
+</reporting>
+
+
+	<build>
+		<finalName>gamutkart</finalName>
+	</build>
+	
+</project>
+
